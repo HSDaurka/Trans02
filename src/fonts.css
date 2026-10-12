@@ -1,0 +1,7 @@
+/* The site's faces. Imported before Tailwind because CSS requires a remote
+   @import at the top of the bundled sheet. Changing a face means changing this
+   import and the --font-* values in theme.css together.
+
+   Three faces, no more: Saira Condensed carries every headline and label, Inter
+   carries body copy and every form field. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira+Condensed:wght@500;600;700&display=swap');
